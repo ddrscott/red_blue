@@ -1,0 +1,55 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Red Blue</title>
+    <meta name="description" content="Red Blue">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <style>
+      html, body {
+        padding: 0;
+      }
+      body {
+        font-size: 300px;
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(255, 0, 0, 1),
+          rgba(255, 0, 0, 1) 20px,
+          rgba(0, 0, 255, 1) 20px,
+          rgba(0, 0, 255, 1) 40px
+          )  
+      }
+
+      .striped-text {
+        text-align: center;
+        padding-left: 20px;
+        background-size: 40px;
+        -webkit-background-clip: text;
+        color: transparent;
+        background-color: #F00;
+        background-image: repeating-linear-gradient(90deg, 
+          rgba(0, 0, 255, 1) 0%, 
+          rgba(0, 0, 255, 1) 50%, 
+          transparent 50%,
+          transparent);
+      }
+
+      .stripes {
+        background: repeating-linear-gradient(
+          90deg,
+          rgba(255, 0, 0, 1),
+          rgba(255, 0, 0, 1) 20px,
+          rgba(0, 0, 255, 1) 20px,
+          rgba(0, 0, 255, 1) 40px
+          )
+      }
+    </style>
+  </head>
+  <body class="stripes">
+    <div class="striped-text">
+      Red<br/>Blue
+    </div>
+  </body>
+</html>
